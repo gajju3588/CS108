@@ -81,8 +81,7 @@ public class Board	{
 	public void sanityCheck() {
 		if (DEBUG) {
 			// YOUR CODE HERE
-            if (grid.length != width || grid[0].length != height)
-                throw new RuntimeException("bad grid");
+
 		}
 	}
 	
